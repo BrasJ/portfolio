@@ -31,7 +31,7 @@ export default function Hero() {
       </div>
       <div>
         <a
-          href="https://drive.google.com/file/d/1BBtaUgV3GDoOnnm0Rtgyw6ohQKGxWIvt/view"
+          href="https://drive.google.com/file/d/1TBknCvqcUAfqcT3nVcUevCmx7HheSx3R"
           target="_blank"
           className="text-sm text-blue-600 dark:text-blue-400 hover:underline"
         >

@@ -2,10 +2,18 @@ import React from "react";
 
 const projects = [
   {
+    title: "Infra Watch",
+    description:
+      "Backend-driven VM infrastructure monitoring tool with FastAPI, React dashboards, JWT auth, and telemetry + config drift tracking in a Dockerized setup.",
+    tech: ["Python", "React", "PostgreSQL", "Docker", "AWS"],
+    repo: "https://github.com/BrasJ/infra-watch",
+    screenshot: "/screenshots/infrawatch.png",
+  },
+  {
     title: "Interactive Story Generator",
     description:
       "A full-stack web app that uses React and FastAPI to let users generate interactive, branching stories using OpenAI’s API.",
-    tech: ["React", "FastAPI", "Python", "OpenAI", "SQLite"],
+    tech: ["Python", "React", "FastAPI", "OpenAI", "SQLite"],
     repo: "https://github.com/BrasJ/Interactive-Story-Generator",
     screenshot: "/screenshots/story.png",
   },
@@ -13,7 +21,7 @@ const projects = [
     title: "E-Commerce System",
     description:
       "A database-focused app for managing products, inventory, and generating business reports. Built using MySQL and Agile methodology.",
-    tech: ["JavaScript", "MySQL", "Jira", "Git"],
+    tech: ["Python", "JavaScript", "MySQL"],
     repo: "https://github.com/BrasJ/e-commerce-app",
     screenshot: "/screenshots/ecommerce.png",
   },
@@ -21,7 +29,7 @@ const projects = [
     title: "TacticsCore",
     description:
       "A grid-based tactical RPG engine written in C++, inspired by Final Fantasy Tactics and XCOM. Modular and built for expansion.",
-    tech: ["C++", "Terminal UI"],
+    tech: ["C++"],
     repo: "https://github.com/BrasJ/TacticsCore",
     screenshot: "/screenshots/tacticscore.png",
   },
