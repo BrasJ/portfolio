@@ -6,7 +6,7 @@ const projects = [
     description:
       "Backend-driven VM infrastructure monitoring tool with FastAPI, React dashboards, JWT auth, and telemetry + config drift tracking in a Dockerized setup.",
     tech: ["Python", "React", "PostgreSQL", "Docker", "AWS"],
-    repo: "https://github.com/BrasJ/infra-watch",
+    repo: "https://infra-watch.vercel.app/",
     screenshot: "/screenshots/infrawatch.png",
   },
   {
